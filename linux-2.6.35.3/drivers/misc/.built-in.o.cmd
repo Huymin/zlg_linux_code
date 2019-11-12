@@ -1,0 +1,1 @@
+cmd_drivers/misc/built-in.o :=  arm-fsl-linux-gnueabi-ld -EL    -r -o drivers/misc/built-in.o drivers/misc/mxs-hsadc.o drivers/misc/mxs-persistent.o drivers/misc/eeprom/built-in.o drivers/misc/cb710/built-in.o drivers/misc/zlg_mx28_type.o 

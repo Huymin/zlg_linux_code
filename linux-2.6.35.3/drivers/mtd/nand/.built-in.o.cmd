@@ -1,0 +1,1 @@
+cmd_drivers/mtd/nand/built-in.o :=  arm-fsl-linux-gnueabi-ld -EL    -r -o drivers/mtd/nand/built-in.o drivers/mtd/nand/nand.o drivers/mtd/nand/nand_ecc.o drivers/mtd/nand/nand_ids.o drivers/mtd/nand/gpmi-nfc/built-in.o drivers/mtd/nand/nand_device_info.o 

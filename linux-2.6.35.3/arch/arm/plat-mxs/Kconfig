@@ -36,7 +36,7 @@ source arch/arm/mach-mx28/Kconfig
 endif
 
 if ARCH_MX23
-source arch/arm/mach-mx23/Kconfig
+#source arch/arm/mach-mx23/Kconfig
 endif
 
 config DMA_ZONE_SIZE

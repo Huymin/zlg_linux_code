@@ -1,0 +1,1 @@
+cmd_drivers/net/can/flexcan/flexcan.o := arm-fsl-linux-gnueabi-ld -EL    -r -o drivers/net/can/flexcan/flexcan.o drivers/net/can/flexcan/dev.o drivers/net/can/flexcan/drv.o drivers/net/can/flexcan/mbm.o 

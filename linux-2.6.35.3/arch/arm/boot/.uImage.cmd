@@ -1,0 +1,1 @@
+cmd_arch/arm/boot/uImage := /bin/bash /work/linux_code/linux-2.6.35.3/scripts/mkuboot.sh -A arm -O linux -T kernel -C none -a 0x40008000 -e 0x40008000 -n 'Linux-2.6.35.3-571-gcca29a0-gd01acaa6-dirty' -d arch/arm/boot/zImage arch/arm/boot/uImage
